@@ -9,4 +9,4 @@ PARAMETERS = {
 response = requests.get(url=URL_API,
                         params=PARAMETERS)
 response.raise_for_status()
-data = response.json()["results"]
+question_data = response.json()["results"]
